@@ -5,7 +5,8 @@ import {
   widget,
   ChartingLibraryWidgetOptions,
   IChartingLibraryWidget,
-} from '../../charting_library';
+} from "../../../public/static/charting_library";
+// '../../charting_library';
 
 import { useMarket, useMarkets } from '../../utils/markets';
 import * as saveLoadAdapter from './saveLoadAdapter';
